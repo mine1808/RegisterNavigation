@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="65dp"
+        android:text="Homepage"
+        android:textColor="#1E293B"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/isi_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="65dp"
+        android:letterSpacing="0.05"
+        android:text="@string/isi_homepage"
+        android:textColor="#525BFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        style="@style/Logoutbutton"
+        android:layout_marginTop="320dp" />
+</LinearLayout>

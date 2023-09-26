@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RegisterNavigation</string>
+    <string name="checkbox_name">By checking the box you agree to our Terms and Conditions</string>
+    <string name="account">Already Have an Account?</string>
+    <string name="isi_homepage">Welcome Username
+        \nYour email has been activated
+        \nYour phone has been registered</string>
+</resources>
